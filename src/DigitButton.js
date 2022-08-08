@@ -8,4 +8,4 @@ export default function DigitButton({ dispatch, digit }) {
       {digit}
     </button>
   )
-}
+}  
