@@ -19,7 +19,7 @@ function reducer(state, { type, payload }) {
           ...state,
           currentOperand: payload.digit,
           overwrite: false,
-        }; 
+        };
       }
       if (payload.digit === "0" && state.currentOperand === "0") {
         return state;
